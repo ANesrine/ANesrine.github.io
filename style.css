@@ -1,0 +1,42 @@
+body{
+
+}
+
+
+#nav-bar{
+	margin:5px;
+	font-size: 16px;
+	background: #E6E3DE;
+	color: black;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-items{
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+}
+
+.flex-item-languages{
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flex-item-logo{
+	display:flex;
+	justify-content:center;
+}
+
+.logo{
+	height:120px;
+}
+
+.nav-link {
+	font-size:16px;
+	color: #4F2A08;
+}
