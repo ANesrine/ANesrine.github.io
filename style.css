@@ -4,7 +4,7 @@ body{
 
 
 #nav-bar{
-	margin:5px;
+	margin-top: :5px;
 	font-size: 16px;
 	background: #E6E3DE;
 	color: black;
@@ -39,4 +39,14 @@ body{
 .nav-link {
 	font-size:16px;
 	color: #4F2A08;
+	font-weight: bold;
+}
+
+.onglets{
+	background:#F2F2F1;
+}
+
+.onglets-items{
+	font-size:18px;
+	color:#5c4019;
 }
