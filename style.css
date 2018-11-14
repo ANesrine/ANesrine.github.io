@@ -8,6 +8,7 @@ body{
 	font-size: 16px;
 	background: #E6E3DE;
 	color: black;
+	height:120px;
 }
 
 .flex-container{
@@ -43,7 +44,7 @@ body{
 }
 
 #nav-bar a:hover {
-	color: #B19265;
+	color: #ad8f45;
 }
 
 .dropdown-menu{
@@ -57,19 +58,88 @@ body{
 /*Onglets*/
 .onglets{
 	background:#F2F2F1;
+	height: 35px
 }
 
 .onglets a:hover{
-	color: #B19265;
+	color: #ad8f45;
 	font-weight: bold;
 }
 
 .onglets-items{
-	padding-right:10px; 
+	padding-right: 10px;
+	padding-left:10px;
 	font-size:16px;
 	color:#5c4019;
 
 }
+
+
+/*Banner*/
+.banner1{
+  width: 1370px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.text-position{
+  background-color:#DBDDD8;
+  height:320px;
+  width: 600px;
+  margin: 30px 20px 50px 175px;
+  border: 1px solid grey;
+  border-radius:3px;
+  padding: 30px 90px 10px 90px;
+}
+
+.text-position h2{
+ font-family: 'EB Garamond', serif;
+ font-size:35px;
+ color: #1C3D43;
+ font-weight: bold;
+
+}
+
+.text-position h3{
+	padding-top: 10px;
+	font-family: 'Cinzel', serif;
+	color:#C4A554;
+}
+
+.text-position p{
+	padding-top: 20px;
+	color: #1C3D43;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+
+
+
+
+
+
+/*Modal*/
+.btn-primary{
+	width:180px;
+	height:40px;
+	background:#017274;
+	border:1px solid grey;
+	border-radius:5px;
+	box-shadow: 1px 1px 1px grey;
+	font-color:grey;
+}
+
+.btn-primary:hover{
+	background-color:#ad8f45;
+	border:1px solid white;
+}
+
+.modal-content{
+	background-color:#DBDDD8;
+}
+
 
 
 
@@ -88,9 +158,9 @@ body{
 #footer a {
   padding-right: 10px;
   color: #5C4019;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #footer a:hover {
-  color: grey;
+  color: #ad8f45;
 }
