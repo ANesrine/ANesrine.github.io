@@ -9,13 +9,13 @@
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel|Crimson+Text|EB+Garamond|Josefin+Sans|KoHo|Libre+Baskerville|Old+Standard+TT" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel|Crimson+Text|EB+Garamond|Vesper+Libre|Lato|Libre+Baskerville|Old+Standard+TT|Abhaya+Libre|Frank+Ruhl+Libre" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
-		
+		<!-- Navbar -->
 		<div id="nav-bar" class="flex-container">
 			    <div class="flex-item-languages">
 				    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Languages</a>
@@ -32,114 +32,205 @@
 				</div>
 		</div>
 
+		<!-- Menu - onglets -->
 		<div class="onglets">
 			<ul class="nav nav-pills nav-fill">
-			  <li class="nav-item">
-			    <a class="onglets-items" href="#">OLLIVANDER'S WANDS</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="onglets-items" href="#">POTIONS</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="onglets-items" href="#">WEASLEYS' WIZARD WHEEZES</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="onglets-items" href="#">HONEYDUKES SWEETS</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="onglets-items" href="#">QUIDDITCH'S SUPPLIES</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="onglets-items" href="#">SCRIBBULUS: PAPETERIE</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="onglets-items" href="#">GIFT TRUNKS</a>
-			  </li>
+				<li class="nav-item">
+					<a class="onglets-items" href="#ollivander-anchor">OLLIVANDER'S WANDS</a>
+				</li>
+				<li class="nav-item">
+					<a class="onglets-items" href="#potions-anchor">POTIONS</a>
+				</li>
+				<li class="nav-item">
+					<a class="onglets-items" href="#weasley-anchor">WEASLEYS' WIZARD WHEEZES</a>
+				</li>
+				<li class="nav-item">
+					<a class="onglets-items" href="#honeydukes-anchor">HONEYDUKES SWEETS</a>
+				</li>
+				<li class="nav-item">
+					<a class="onglets-items" href="#quidditch-anchor">QUIDDITCH'S SUPPLIES</a>
+				</li>
+				<li class="nav-item">
+					<a class="onglets-items" href="#scribbulus-anchor">SCRIBBULUS: PAPETERIE</a>
+				</li>
 			</ul>
 		</div>
 
-
+		<!-- Carousel -->
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		  <ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		  </ol>
-		  
-		  <div class="carousel-inner">
-		  
-		    <div class="carousel-item active">
-		      <div class="banner1">
-		      	<img class="d-block w-100" src="images/banner1.png" alt="First slide">
-		      	<div class="carousel-caption d-none d-md-block">
-			      	<div class="text-position">
-				      	<h2> The Wizarding World Shop</h2>
-				      	<h3>BIENVENUE!</h3>
-				      	<p> Welcome to The Wizarding World Shop, the home of all Wizarding World merchandise for all your needs. Many of our products are exclusively made by the best shops of all the Wizarding World, and can only be found here! </p>
-			      		<!-- Button trigger modal -->
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-						  A propos de nous
-						</button>
-			      	</div>
-				 </div>	
-		      </div>
-		    </div>
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
 
-		    <div class="carousel-item">
-		    	<div class="banner1">
-		      	<img class="d-block w-100" src="images/christmas.png" alt="Second slide">
-		  		</div>
-		    </div>
-		    
-		    <div class="carousel-item">
-		    	<div class="banner1">
-		      		<img class="d-block w-100" src="images/wand.png" alt="Third slide">
-		  		</div>
-		    </div>
-		  </div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="banner1">
+						<img class="d-block w-100" src="images/banner1.png" alt="First slide">
+						<div class="carousel-caption d-none d-md-block">
+							<div class="text-banner1">
+								<h2> The Wizarding World Shop</h2>
+								<h3>BIENVENUE!</h3>
+								<p> Welcome to The Wizarding World Shop, the home of all Wizarding World merchandise for all your needs. Many of our products are exclusively made by the best shops of all the Wizarding World, and can only be found here! </p>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+								A propos de nous
+								</button>
+							</div>
+						</div>	
+					</div>
+				</div>
 
-		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
+				<div class="carousel-item">
+					<div class="banner1">
+						<img class="d-block w-100" src="images/christmas.png" alt="Second slide">
+						<div class="carousel-caption d-none d-md-block">
+							<div class="text-banner2">
+								<h2> Christmas at the Wizarding World Shop</h2>
+								<h3>Passez Noël avec nous!</h3>
+								<p> Découvrez tous nos produits spécial Noël et commandez à distance tous vos cadeaux de Noël chez the Wizarding World Shop ! Des collections spéciales de Noël de Weasley's Wheezes aux sucreries de Honeydukes, en passant par toutes nos offres du moment, ne ratez rien! </p>
+								<div class="btn-container">
+								<a href="" class="btn-command">Commandez</a>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+
+			    <div class="carousel-item">
+			    	<div class="banner1">
+			      		<img class="d-block w-100" src="images/wand.png" alt="Third slide">
+			      		<div class="carousel-caption d-none d-md-block">
+					      	<div class="text-banner3">
+						      	<h2> Les baguettes Ollivander</h2>
+						      	<h3>C'est la baguette qui choisit le sorcier</h3>
+						      	<p> Pour la première fois dans le monde sorcier, vous pouvez commander à distance votre baguette Ollivander</p>
+					      		<div class="btn-container">
+		  						<a href="" class="btn-discover">Découvrez</a>
+								</div>
+					      	</div>
+						</div>	
+			  		</div>
+			    </div>
+			</div>
+
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
 
-
-
-
-
+		<!-- Modal -->
 		<div class="modal" tabindex="-1" role="dialog" id="exampleModalCenter">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title">The Wizarding World Shop</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-body">
-		        <p>La boutique du Monde Sorcier est la seule boutique au monde à vous permettre d'acheter en ligne tous les produits que vous pouvez trouver dans les différents magasins du Monde sorcier. 
-		        
-		        Ainsi nul besoin de vous déplacer! Vous pourrez directement commander votre baguette magique, acheter vos potions à distance ou encore commander les farces et attrapes de la célèbre boutique Weasley's Wheezes!
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">The Wizarding World Shop</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>La boutique du Monde Sorcier est la seule boutique au monde à vous permettre d'acheter en ligne tous les produits que vous pouvez trouver dans les différents magasins du Monde sorcier. 
 
-		        The Wizarding World Shop vous permet également de choisir en toute sérénité vos équipements de Quidditch ainsi que toute la papeterie dont vous avez besoin.
+						Ainsi nul besoin de vous déplacer! Vous pourrez directement commander votre baguette magique, acheter vos potions à distance ou encore commander les farces et attrapes de la célèbre boutique Weasley's Wheezes!
 
-		        N'oubliez pas de glisser dans votre Shopping List des petites douceurs de Honeydukes!</p>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn-primary" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
+						The Wizarding World Shop vous permet également de choisir en toute sérénité vos équipements de Quidditch ainsi que toute la papeterie dont vous avez besoin.
+
+						N'oubliez pas de glisser dans votre Shopping List des petites douceurs de Honeydukes!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Cards -->
+		<div class="row" style="margin: 15px 5px 15px 5px;">
+			<div class="col-md-4">
+				<div id="ollivander-anchor" class="card">
+					<img class="card-img-top" src="images/olivanders.jpg" alt="Ollivander's Shop">
+					<div class="card-body">
+						<h5 class="card-title">Ollivander's Shop !</h5>
+						<p class="card-text">La baguette choisit son sorcier mais à vous de venir la chercher ! Venez acheter vos baguettes chez le vendeur le plus prisé de Londres!</p>
+						<a href="#" class="card-btn" style="text-align:center; display: block; margin: auto;">Voir nos articles</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div id="weasley-anchor" class="card">
+					<img class="card-img-top" src="images/weasley.jpg" alt="Weasley's Shop">
+					<div class="card-body">
+						<h5 class="card-title">Weasleys' Wizard Wheezes</h5>
+						<p class="card-text">Envie de réaliser une petite farce à vos amis ? Weasley, Farces pour sorciers facétieux, là pour vous servir dans vos meilleurs tours ! </p>
+						<a href="#" class="card-btn" style="text-align:center; display: block; margin: auto;">Voir nos articles</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div id="honeydukes-anchor" class="card">
+					<img class="card-img-top" src="images/honeydukes.jpg" alt="Honeydukes' Shop">
+					<div class="card-body">
+						<h5 class="card-title">Honeydukes' Shop</h5>
+						<p class="card-text">Une petite douceur vous tente ? Venez trouver toutes nos confiseries dans le magasin Honeydukes en ligne ! A vos chaudrons! </p>
+						<a href="#" class="card-btn" style="text-align:center; display: block; margin: auto;">Voir nos articles</a>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+		<div class="row" style="margin: 15px 5px 15px 5px;">
+			<div class="col-md-4">
+				<div id="potions-anchor" class="card">
+					<img class="card-img-top" src="images/potions.png" alt="Potions Shop">
+					<div class="card-body">
+						<h5 class="card-title">Potions For All Shop !</h5>
+						<p class="card-text">Des potions pour toutes vos afflictions ! De la simple potion contre le rhume aux puissants filtres d'amour!</p>
+						<a href="#" class="card-btn" style="text-align:center; display: block; margin: auto;">Voir nos articles</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div id="quidditch-anchor" class="card">
+					<img class="card-img-top" src="images/quidditch.png" alt="Quidditch Supplies Shop">
+					<div class="card-body">
+						<h5 class="card-title">Quidditch Supplies' Shop !</h5>
+						<p class="card-text">Le Quidditch est le sport national des sorciers! Ne manquez pas d'acheter votre balai et ses accessoires!</p>
+						<a href="#" class="card-btn" style="text-align:center; display: block; margin: auto;">Voir nos articles</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div id="scribbulus-anchor" class="card">
+					<img class="card-img-top" src="images/scribbulus.png" alt="Scribbulus Supplies Shop">
+					<div class="card-body">
+						<h5 class="card-title">Scribbulus' Stationary Shop !</h5>
+						<p class="card-text"> Chez Scribbulus vous trouverez les meilleurs plumes et  parchemins, ne manquez aucune occasion!</p>
+						<a href="#" class="card-btn" style="text-align:center; display: block; margin: auto;">Voir nos articles</a>
+					</div>
+				</div>
+			</div>
 		</div>
 
 
 
+		<!-- Typeform -->
+		<div class="typeform">
+			<a class="typeform-share button" href="https://nesine.typeform.com/to/EJrqs9" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#A76911;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:19px;line-height:47.5px;text-align:center;margin:0;height:47.5px;padding:0px 31px;border-radius:20px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="5" target="_blank">Subscribe to our shop 
+			</a> 
+			<script> (
+				function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() 
+			</script>
+		</div>
 
+		<!-- Footer -->
 		<div id="footer">
 			<p> Share the Wizarding World of Harry Potter Experience</p>
 			<a href=""><i class="fab fa-facebook-square"></i></a></a>

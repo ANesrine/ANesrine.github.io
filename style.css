@@ -59,6 +59,7 @@ body{
 .onglets{
 	background:#F2F2F1;
 	height: 35px
+	padding-top:10px;
 }
 
 .onglets a:hover{
@@ -71,6 +72,7 @@ body{
 	padding-left:10px;
 	font-size:16px;
 	color:#5c4019;
+	font-family: 'Vesper Libre', serif;
 
 }
 
@@ -84,7 +86,7 @@ body{
   border-radius: 5px;
 }
 
-.text-position{
+.text-banner1{
   background-color:#DBDDD8;
   height:320px;
   width: 600px;
@@ -94,7 +96,7 @@ body{
   padding: 30px 90px 10px 90px;
 }
 
-.text-position h2{
+.text-banner1 h2{
  font-family: 'EB Garamond', serif;
  font-size:35px;
  color: #1C3D43;
@@ -102,13 +104,13 @@ body{
 
 }
 
-.text-position h3{
+.text-banner1 h3{
 	padding-top: 10px;
 	font-family: 'Cinzel', serif;
 	color:#C4A554;
 }
 
-.text-position p{
+.text-banner1 p{
 	padding-top: 20px;
 	color: #1C3D43;
 	font-family: 'Crimson Text', serif;
@@ -116,8 +118,109 @@ body{
 }
 
 
+.text-banner2{
+	background-color:#DBDDD8;
+	opacity: 0.9;
+  	height:320px;
+  	width: 550px;
+  	margin: 60px 80px 50px 200px;
+  	border: 1px solid grey;
+  	border-radius:3px;
+  	padding: 10px 50px 10px 50px;
+}
+
+.text-banner2 h2{
+	 font-family: 'EB Garamond', serif;
+	 font-size:30px;
+	 color: #010119;
+	 font-weight: bold;
+	 padding-top: 20px;
+
+}
+
+.text-banner2 h3{
+	padding-top: 5px;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	font-size:20px;
+	color:#b78103;
+}
+
+.text-banner2 p{
+	padding-top: 10px;
+	color: #262954;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+
+.btn-command{
+	background:#040E36;
+	width:200px;
+	height:30px;
+	border:1px solid grey;
+	border-radius:5px;
+	box-shadow: 1px 1px 1px grey;
+	color: white;
+	text-decoration: none;
+	padding:10px;
+}
 
 
+.btn-command:hover{
+	background-color:#b78103;
+	border:1px solid white;
+	color: white;
+	text-decoration: none;
+}
+
+.text-banner3{
+	padding-right:500px;
+	padding-bottom:10px;
+}
+
+.text-banner3 h2{
+	font-family: 'EB Garamond', serif;
+	 font-size:35px;
+	 color: white;
+	 font-weight: bold;
+	 padding-top: 20px;
+}
+
+.text-banner3 h3{
+	padding-top: 10px;
+	font-family: 'Old Standard TT', serif;
+	font-style:italic;
+	font-weight: bold;
+	font-size:20px;
+	color:white;
+}
+
+.text-banner3 p{
+	padding-top: 2px;
+	padding-bottom:2px;
+	color: #B8C0D0;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+
+.btn-discover{
+	background:#0f3f91;
+	width:500px;
+	height:50px;
+	border:1px solid #0f3f91;
+	border-radius:5px;
+	box-shadow: 1px 1px 1px #0D264D;
+	color: white;
+	text-decoration: none;
+	padding:10px;
+}
+
+.btn-discover:hover{
+	background-color:#051E45;
+	border:1px solid white;
+	color: white;
+	text-decoration: none;
+}
 
 
 /*Modal*/
@@ -140,10 +243,76 @@ body{
 	background-color:#DBDDD8;
 }
 
+.modal-title{
+	text-align:center;
+	font-family: 'EB Garamond', serif;
+	font-size:20px;
+ 	color: #ad8f45;
+ 	font-weight: bold;
+}
 
+.modal-body{
+	text-align:justify;
+	font-family: 'Lato', sans-serif;
+	color: #040E36;
+	font-size:16px;
 
+}
 
+/*Card*/
+.card-body{
+	background: #F2F2F1;
+}
 
+.card-img-top{
+	width:414px;
+	height:276px;
+}
+
+.card-title{
+	text-align:center;
+	font-family: 'EB Garamond', serif;
+	font-size:30px;
+ 	color: #1C3D43;
+ 	font-weight: bold;
+}
+
+.card-text{
+	padding-top: 3px;
+	color: #040E36;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size:16px;
+	text-align: justify;
+}
+
+.card-btn{
+	background:#017274;
+	width:160px;
+	height:40px;
+	padding-top: 10px;
+	border:1px solid #E6E3DE;
+	border-radius:5px;
+	box-shadow: 1px 1px 1px grey;
+	color: white;
+	text-decoration: none;
+	font-color:white;
+	font-family: 'Libre Baskerville', serif;
+	font-size:13px;
+}
+
+.card-btn:hover{
+	background-color:#ad8f45;
+	border:1px solid white;
+	color:white;
+	text-decoration: none;
+}
+
+/*Typeform*/
+.typeform{
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
 
 
 /*Footer*/
